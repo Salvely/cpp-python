@@ -1,0 +1,4 @@
+"D:\Program_Files\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DBOOST_ROOT=C:\Program Files\Boost\boost_1_84_0" -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" E:\projects\tiny-python
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/projects/tiny-python/cmake-build-debug
