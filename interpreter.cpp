@@ -16,7 +16,7 @@ int interpreter::interpret() {
     return 0;
 }
 
-int interpreter::read_script() {
+int interpreter::execute() {
     return 0;
 }
 

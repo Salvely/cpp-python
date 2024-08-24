@@ -7,7 +7,8 @@
 
 
 class runtime {
-
+public:
+    int run();
 };
 
 
