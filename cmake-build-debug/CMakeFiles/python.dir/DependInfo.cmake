@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/projects/tiny-python/error.cpp" "E:/projects/tiny-python/cmake-build-debug/CMakeFiles/python.dir/error.cpp.obj"
+  "E:/projects/tiny-python/interpreter.cpp" "E:/projects/tiny-python/cmake-build-debug/CMakeFiles/python.dir/interpreter.cpp.obj"
   "E:/projects/tiny-python/main.cpp" "E:/projects/tiny-python/cmake-build-debug/CMakeFiles/python.dir/main.cpp.obj"
+  "E:/projects/tiny-python/runtime.cpp" "E:/projects/tiny-python/cmake-build-debug/CMakeFiles/python.dir/runtime.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

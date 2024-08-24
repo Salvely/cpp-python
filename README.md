@@ -1,4 +1,4 @@
-# tiny-python
+# cpp-python
 
 a tiny python interpreter implemented in C++
 

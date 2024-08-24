@@ -128,6 +128,54 @@ python/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\python.dir\build.make CMakeFiles/python.dir/build
 .PHONY : python/fast
 
+error.obj: error.cpp.obj
+.PHONY : error.obj
+
+# target to build an object file
+error.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\python.dir\build.make CMakeFiles/python.dir/error.cpp.obj
+.PHONY : error.cpp.obj
+
+error.i: error.cpp.i
+.PHONY : error.i
+
+# target to preprocess a source file
+error.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\python.dir\build.make CMakeFiles/python.dir/error.cpp.i
+.PHONY : error.cpp.i
+
+error.s: error.cpp.s
+.PHONY : error.s
+
+# target to generate assembly for a file
+error.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\python.dir\build.make CMakeFiles/python.dir/error.cpp.s
+.PHONY : error.cpp.s
+
+interpreter.obj: interpreter.cpp.obj
+.PHONY : interpreter.obj
+
+# target to build an object file
+interpreter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\python.dir\build.make CMakeFiles/python.dir/interpreter.cpp.obj
+.PHONY : interpreter.cpp.obj
+
+interpreter.i: interpreter.cpp.i
+.PHONY : interpreter.i
+
+# target to preprocess a source file
+interpreter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\python.dir\build.make CMakeFiles/python.dir/interpreter.cpp.i
+.PHONY : interpreter.cpp.i
+
+interpreter.s: interpreter.cpp.s
+.PHONY : interpreter.s
+
+# target to generate assembly for a file
+interpreter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\python.dir\build.make CMakeFiles/python.dir/interpreter.cpp.s
+.PHONY : interpreter.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -152,6 +200,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\python.dir\build.make CMakeFiles/python.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+runtime.obj: runtime.cpp.obj
+.PHONY : runtime.obj
+
+# target to build an object file
+runtime.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\python.dir\build.make CMakeFiles/python.dir/runtime.cpp.obj
+.PHONY : runtime.cpp.obj
+
+runtime.i: runtime.cpp.i
+.PHONY : runtime.i
+
+# target to preprocess a source file
+runtime.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\python.dir\build.make CMakeFiles/python.dir/runtime.cpp.i
+.PHONY : runtime.cpp.i
+
+runtime.s: runtime.cpp.s
+.PHONY : runtime.s
+
+# target to generate assembly for a file
+runtime.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\python.dir\build.make CMakeFiles/python.dir/runtime.cpp.s
+.PHONY : runtime.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +233,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... python
+	@echo ... error.obj
+	@echo ... error.i
+	@echo ... error.s
+	@echo ... interpreter.obj
+	@echo ... interpreter.i
+	@echo ... interpreter.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... runtime.obj
+	@echo ... runtime.i
+	@echo ... runtime.s
 .PHONY : help
 
 

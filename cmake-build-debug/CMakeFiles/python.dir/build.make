@@ -79,14 +79,62 @@ CMakeFiles/python.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/python.dir/main.cpp.s"
 	D:\Program_Files\Mingw-w64\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\projects\tiny-python\main.cpp -o CMakeFiles\python.dir\main.cpp.s
 
+CMakeFiles/python.dir/interpreter.cpp.obj: CMakeFiles/python.dir/flags.make
+CMakeFiles/python.dir/interpreter.cpp.obj: CMakeFiles/python.dir/includes_CXX.rsp
+CMakeFiles/python.dir/interpreter.cpp.obj: ../interpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\projects\tiny-python\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/python.dir/interpreter.cpp.obj"
+	D:\Program_Files\Mingw-w64\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\python.dir\interpreter.cpp.obj -c E:\projects\tiny-python\interpreter.cpp
+
+CMakeFiles/python.dir/interpreter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/python.dir/interpreter.cpp.i"
+	D:\Program_Files\Mingw-w64\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\projects\tiny-python\interpreter.cpp > CMakeFiles\python.dir\interpreter.cpp.i
+
+CMakeFiles/python.dir/interpreter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/python.dir/interpreter.cpp.s"
+	D:\Program_Files\Mingw-w64\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\projects\tiny-python\interpreter.cpp -o CMakeFiles\python.dir\interpreter.cpp.s
+
+CMakeFiles/python.dir/error.cpp.obj: CMakeFiles/python.dir/flags.make
+CMakeFiles/python.dir/error.cpp.obj: CMakeFiles/python.dir/includes_CXX.rsp
+CMakeFiles/python.dir/error.cpp.obj: ../error.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\projects\tiny-python\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/python.dir/error.cpp.obj"
+	D:\Program_Files\Mingw-w64\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\python.dir\error.cpp.obj -c E:\projects\tiny-python\error.cpp
+
+CMakeFiles/python.dir/error.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/python.dir/error.cpp.i"
+	D:\Program_Files\Mingw-w64\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\projects\tiny-python\error.cpp > CMakeFiles\python.dir\error.cpp.i
+
+CMakeFiles/python.dir/error.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/python.dir/error.cpp.s"
+	D:\Program_Files\Mingw-w64\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\projects\tiny-python\error.cpp -o CMakeFiles\python.dir\error.cpp.s
+
+CMakeFiles/python.dir/runtime.cpp.obj: CMakeFiles/python.dir/flags.make
+CMakeFiles/python.dir/runtime.cpp.obj: CMakeFiles/python.dir/includes_CXX.rsp
+CMakeFiles/python.dir/runtime.cpp.obj: ../runtime.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\projects\tiny-python\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/python.dir/runtime.cpp.obj"
+	D:\Program_Files\Mingw-w64\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\python.dir\runtime.cpp.obj -c E:\projects\tiny-python\runtime.cpp
+
+CMakeFiles/python.dir/runtime.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/python.dir/runtime.cpp.i"
+	D:\Program_Files\Mingw-w64\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\projects\tiny-python\runtime.cpp > CMakeFiles\python.dir\runtime.cpp.i
+
+CMakeFiles/python.dir/runtime.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/python.dir/runtime.cpp.s"
+	D:\Program_Files\Mingw-w64\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\projects\tiny-python\runtime.cpp -o CMakeFiles\python.dir\runtime.cpp.s
+
 # Object files for target python
 python_OBJECTS = \
-"CMakeFiles/python.dir/main.cpp.obj"
+"CMakeFiles/python.dir/main.cpp.obj" \
+"CMakeFiles/python.dir/interpreter.cpp.obj" \
+"CMakeFiles/python.dir/error.cpp.obj" \
+"CMakeFiles/python.dir/runtime.cpp.obj"
 
 # External object files for target python
 python_EXTERNAL_OBJECTS =
 
 ../python.exe: CMakeFiles/python.dir/main.cpp.obj
+../python.exe: CMakeFiles/python.dir/interpreter.cpp.obj
+../python.exe: CMakeFiles/python.dir/error.cpp.obj
+../python.exe: CMakeFiles/python.dir/runtime.cpp.obj
 ../python.exe: CMakeFiles/python.dir/build.make
 ../python.exe: D:/Program_Files/Mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/lib/libboost_regex-mgw8-mt-d-x64-1_84.a
 ../python.exe: D:/Program_Files/Mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/lib/libboost_filesystem-mgw8-mt-d-x64-1_84.a
@@ -94,7 +142,7 @@ python_EXTERNAL_OBJECTS =
 ../python.exe: CMakeFiles/python.dir/linklibs.rsp
 ../python.exe: CMakeFiles/python.dir/objects1.rsp
 ../python.exe: CMakeFiles/python.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\projects\tiny-python\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ..\python.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\projects\tiny-python\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ..\python.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\python.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

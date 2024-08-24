@@ -88,7 +88,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/projects/tiny-python/error.cpp">
+			<Option target="python"/>
+		</Unit>
+		<Unit filename="E:/projects/tiny-python/error.h">
+			<Option target="python"/>
+		</Unit>
+		<Unit filename="E:/projects/tiny-python/interpreter.cpp">
+			<Option target="python"/>
+		</Unit>
+		<Unit filename="E:/projects/tiny-python/interpreter.h">
+			<Option target="python"/>
+		</Unit>
 		<Unit filename="E:/projects/tiny-python/main.cpp">
+			<Option target="python"/>
+		</Unit>
+		<Unit filename="E:/projects/tiny-python/runtime.cpp">
+			<Option target="python"/>
+		</Unit>
+		<Unit filename="E:/projects/tiny-python/runtime.h">
 			<Option target="python"/>
 		</Unit>
 		<Unit filename="E:/projects/tiny-python/CMakeLists.txt">
